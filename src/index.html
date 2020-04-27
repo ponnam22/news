@@ -13,12 +13,12 @@
 <body>
   <h1 class="site-title">News Aggregator</h1>
   
-  <form class="form-search" action="">
   <div class="search-container">
+    <form class="form-search" action="">
              <input type="text" name="search" id="search" placeholder="Type and press enter to search..." />
              <input type="submit" id="searchbtn"  value="search" style="float: left;  width:200px; margin-top: 20px; height:30px">
-             <input type="reset" id="clearbtn"  value="clear" style="float: right;  width:200px; margin-top: 20px; height:30px" >
-          </div>
+             <input type="submit" id="clearbtn"  value="clear" style="float: right;  width:200px; margin-top: 20px; height:30px" >
+          
         </form>   
   </div>
 
@@ -26,9 +26,19 @@
 </ul>
 
 <script src="scripts/index.js"></script>
-
+<script src="scripts/search.js"></script>
 
 <script>
+  var btn = document.querySelector("#clearbtn");
+
+btn.addEventListener("click", function(e){
+
+    e.preventDefault();
+
+    location.reload(true);
+
+});
   </script>
+
 </body>
 </html>
