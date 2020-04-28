@@ -50,3 +50,17 @@ let makeSomeHTML = (response) => {
 }
 httpGetAsync(url, makeSomeHTML);
 }
+
+
+
+
+// reload
+var btn = document.querySelector("#clearbtn");
+
+btn.addEventListener("click", function(e){
+
+    e.preventDefault();
+
+    location.reload(true);
+
+});

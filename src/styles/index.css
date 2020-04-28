@@ -51,7 +51,9 @@ body{
   #clearbtn{
     float: right;  width:200px; margin-top: 20px; height:40px;
   }
-
+  .selector{
+    color: blue;
+  }
 
 
 
