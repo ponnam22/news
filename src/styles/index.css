@@ -45,22 +45,32 @@ body{
     border: 4px solid blue;
     border-radius: 10px;
   }
+  #searchbtn{
+  float: left;  width:200px; margin-top: 20px; height:40px;
+  }
+  #clearbtn{
+    float: right;  width:200px; margin-top: 20px; height:40px;
+  }
 
 
 
 
 
 
-
-
-
-
-  @media only screen and (max-width: 850px){
+  @media screen and (max-width: 700px){
       #news-articles {
           display: grid;
           grid-template-columns: auto;
           grid-template-rows: auto;
           
+        }
+        #searchbtn{
+          display: block;
+          width: 100%;
+        }
+        #clearbtn{
+          display: block;
+          width: 100%;
         }
   }
 

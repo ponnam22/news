@@ -16,8 +16,8 @@
   <div class="search-container">
     <form class="form-search" action="">
              <input type="text" name="search" id="search" placeholder="Type and press enter to search..." />
-             <input type="submit" id="searchbtn"  value="search" style="float: left;  width:200px; margin-top: 20px; height:30px">
-             <input type="submit" id="clearbtn"  value="clear" style="float: right;  width:200px; margin-top: 20px; height:30px" >
+             <input type="submit" id="searchbtn"  value="search" >
+             <input type="submit" id="clearbtn"  value="clear"  >
           
         </form>   
   </div>
@@ -29,7 +29,7 @@
 <script src="scripts/search.js"></script>
 
 <script>
-  var btn = document.getElementById("clearbtn");
+  var btn = document.querySelector("#clearbtn");
 
 btn.addEventListener("click", function(e){
 
