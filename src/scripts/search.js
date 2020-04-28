@@ -21,7 +21,7 @@ function retrieve(e){
 
      let output = "";
 
-
+     
 
 let makeSomeHTML = (response) => {
  let obj = JSON.parse(response);
@@ -43,6 +43,7 @@ let makeSomeHTML = (response) => {
              </li>    
          `;
      output = output+ outTemplate; 
+   
  }
  
  document.querySelector('#news-articles').innerHTML = output;
