@@ -55,7 +55,7 @@
                 
               
             }
-            document.querySelector('#news-articles').innerHTML = output;
+            document.getElementById('news-articles').innerHTML = output;
         }
         httpGetAsync(url, makeSomeHTML);
 
