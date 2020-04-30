@@ -9,7 +9,11 @@ body{
     border: 3px solid white;
     margin: 30px;
 }
-#selector{
+.selector{
+  font-size: 20px;
+  color: wheat;
+}
+#search{
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
@@ -24,6 +28,7 @@ body{
   }
   #news-articles:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
   }
   
   #news-articles {
@@ -35,8 +40,6 @@ body{
     height: 300px;
     float: right;
   }
-  
-
   
   .article {
     font-size: 30px;
