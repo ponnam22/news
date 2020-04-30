@@ -1,7 +1,7 @@
 const searchFrom = document.querySelector(".form-search");
 const input = document.getElementById("search");
 searchFrom.addEventListener('submit',retrieve)
- const na =document.getElementsByClassName('news-articles');
+ 
 
 function retrieve(e){
   e.preventDefault() 
