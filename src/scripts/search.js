@@ -1,6 +1,6 @@
 const searchFrom = document.querySelector(".form-search");
 const input = document.getElementById("#search");
-const select =document.querySelector('.selector');
+const select =document.querySelector('#selector');
 searchFrom.addEventListener('submit',retrieve)
  
 
