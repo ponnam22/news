@@ -33,15 +33,20 @@ let makeSomeHTML = (response) => {
              </li>    
          `;
      output = output+ outTemplate; 
-   
  }
 
 let select = document.querySelector('.not-found');
-         if (obj.totalResults == 0){
+         if (obj.articles.length < 1){
+          select.innerHTML = '<h1>No article was found based on the search.</h1>';    
              alert("keyword not match found");
-           select.innerHTML= `<h1>No article was found based on the search</h1> <br> <h3>click clear button</h3> `;
+           
          }
  
+         
+          
+      
+
+
 
  document.querySelector('#news-articles').innerHTML = output;
 }
