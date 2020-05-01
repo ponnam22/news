@@ -36,7 +36,7 @@ let makeSomeHTML = (response) => {
  }
 
 let select = document.querySelector('.not-found');
-         if (obj.articles.length < 1){
+         if (obj.totalResult == 0){
           //select.innerHTML = '<h1>No article was found based on the search.</h1>';    
              alert("No article was found");
            
