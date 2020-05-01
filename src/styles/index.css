@@ -9,7 +9,7 @@ body{
     border: 3px solid white;
     margin: 30px;
 }
-.selector{
+.not-found{
   color: white;
   text-align: center;
   font-size: 60px;
