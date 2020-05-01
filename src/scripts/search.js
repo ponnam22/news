@@ -39,7 +39,7 @@ let makeSomeHTML = (response) => {
 let select = document.querySelector('.not-found');
          if (obj.totalResults == 0){
              alert("keyword not match found");
-           select.innerHTML= `<h1>data is not found try different keyword</h1> <br> <h3>click clear button</h3> `;
+           select.innerHTML= `<h1>No article was found based on the search</h1> <br> <h3>click clear button</h3> `;
          }
  
 
