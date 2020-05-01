@@ -37,9 +37,13 @@ let makeSomeHTML = (response) => {
 
 let select = document.querySelector('.not-found');
          if (obj.articles.length < 1){
-          select.innerHTML = '<h1>No article was found based on the search.</h1>';    
+          //select.innerHTML = '<h1>No article was found based on the search.</h1>';    
              alert("keyword not match found");
            
+             var h1 = document.createElement("h1");
+             h1.className = "not-found";
+             h1.innerHTML = "No article was found based on the search.";
+            select.appendChild(h1);
          }
  
          
