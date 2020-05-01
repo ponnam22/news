@@ -43,7 +43,7 @@
                   let aimage = currObj["urlToImage"];
                   let alink = currObj["url"];
                   let outTemplate = `
-                         <li id="article">
+                         <li class="article">
                               <img  class="article-img" src="${aimage}" alt="image" style="width:100%" ><br><br>
                               <h2 class="article-title"> ${atitle}</h2><br>
                               <p class="article-description">${adescription}</p><br>
