@@ -38,7 +38,6 @@ let makeSomeHTML = (response) => {
 let select = document.querySelector('.not-found');
          if (obj.totalResults == 0 ){
           //select.innerHTML = '<h1>No article was found based on the search.</h1>';    
-             alert("No article was found");
            
              let h1 = document.createElement("h1");
              h1.className = "not-found";
