@@ -15,7 +15,7 @@ function retrieve(e){
 
 let makeSomeHTML = (response) => {
  let obj = JSON.parse(response);
- let dataArr = obj["articles"];
+ let dataArr = obj["articles"];   
    for (let i = 0; i < dataArr.length; i++) {
        let currObj = dataArr[i];
        let atitle = currObj["title"];
@@ -37,11 +37,9 @@ let makeSomeHTML = (response) => {
 
 let select = document.querySelector('.not-found');
 
-         if (obj.totalResults == 0 ){
-          //select.innerHTML = '<h1>No article was found based on the search.</h1>';    
+         if (obj.totalResults == 0 ){   
              alert("No article was found");
-             select.innerHTML = `<h1>No article was found based on the search.</h1>`;
-             
+             select.innerHTML = "No article was found based on the search.";             
          }
 
 
